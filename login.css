@@ -1,0 +1,51 @@
+.cards{
+    background-color: #f5f0ff ;
+    margin: 5rem 19rem;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.card-login{
+    
+        background-color: #fff ;
+        margin: 50px 40px;
+        border-radius: 30px;
+        border: 1px solid #f5f0ff;
+
+}
+
+.card-text{
+    padding: 20px;
+}
+
+.card-text h1{
+  margin: 20px 2px;
+}
+ .form input{
+    width: 90%;
+    height: 45px;
+    margin: 10px 1px;
+    border: 1px solid lightgray;
+}
+
+.forget a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn button{
+    text-align: center;
+
+    margin: 20px 0px;
+    
+}
+
+.signup a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.socail img{
+    width: 50px;
+    padding: 10px 5px;
+}

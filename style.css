@@ -1,0 +1,315 @@
+/* .navbar-brand {
+    width: 180px;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@100;300;400;500&family=Rubik:wght@300;400&display=swap'); 
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    font-size: 18px;
+}
+
+ .navbar .logo img{
+    width: 150px;
+ }
+
+/* .Navs-Bar{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+} */
+
+/* .header .logo{
+
+} */
+
+
+.Navs-Bar .navbar ul{
+    list-style: none;
+    margin-top: 18px;
+
+}
+
+
+.Navs-Bar .navbar ul li {
+    position: relative;
+    float: left;
+   
+
+
+}
+
+.Navs-Bar .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+    text-decoration: none;
+    
+
+}
+
+.Navs-Bar .navbar ul li a .btn{
+    font-size: 20px;
+    margin-top: -5px;
+  
+}
+
+
+.Navs-Bar .navbar ul li a:hover {
+    color: blue;
+    /* background-color: #333; */
+
+}
+
+.Navs-Bar .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    /* width: 200px; */
+    background: #fff;
+    display: none;
+    
+    
+}
+
+.Navs-Bar .navbar ul li ul li{
+    /* width: 100%; */
+    /* border-top: 1px solid #fff; */
+    margin-top: -39px;
+   
+
+}
+
+.Navs-Bar .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+
+}
+
+.Navs-Bar .navbar ul li:hover > ul {
+    display: initial;
+}
+
+/* .row{
+    background-image: url(image/bannernew-1c485c51443b40a7a2e9c5688a5542e790671da63634a6e9a28806ddc652b444.png);
+} */
+
+/* body{
+    background-color: #fff1ea;
+} */
+/* body{
+    background-color:bisque;
+} */
+
+.carousel-item{
+    margin-left: 140px;
+}
+
+.img-area{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 5px;
+    border-radius: 50%;
+}
+.card-nam{
+    left: 100px;
+    top: 30px;
+    position: absolute;
+}
+/* .card-nam .h6{
+  position: absolute;
+} */
+
+.card-body{
+    margin-top: 120px;
+}
+
+
+.Coding{
+    background-color: #f8fafa;
+    margin-top: 40px;
+
+}
+
+.Coding-text{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.coding-sec-text h6{
+   color: rgb(247, 128, 119);
+   
+}
+
+.coding-card{
+   
+    padding: 20px 20px;
+    background-color: bisque;
+    border-radius: 10%;
+    
+}
+
+.coding-sec-text{
+    margin-left: 50px;
+}
+
+/* .req{
+    background-color: #f5f0ff ;
+
+} */
+
+.req-card{
+    background-color: #f5f0ff;
+    margin-bottom: 40px;
+    
+}
+
+
+.req-text{
+    text-align: center;
+   padding-top: 100px;
+   
+
+}
+
+.req-img img {
+    padding: 40px 50px;
+}
+
+.apply-bg{
+    
+    background-color: #f5f0ff ;
+    border-radius: 10px;
+    margin: 34px 15px;
+    
+    
+}
+
+.col-color{
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #f5f0ff;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80%;
+    
+    
+}
+
+.img-person{
+    margin: 20px 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.apply-text{
+ margin: 2px 0px 2px 10px;
+ margin: 2px 20px;
+}
+
+
+   
+   .Features{
+       padding: 50px 0px;
+   }
+   
+   .Features-text{
+       text-align: center;
+   }
+   
+   .Features-col{
+       height: 90%;
+       background-color: #f5f0ff;
+       border-radius: 30px;
+   }
+   
+   .Features-text{
+       padding: 30px 30px;
+       /* margin-top: 30px; */
+   }
+   
+   .Feature-div{
+       text-align: center;
+       margin: 10px 280px;
+       width: 50%;
+   
+   }
+
+
+.footer{
+    background-color: #03081a;
+    padding: 50px 0px;
+    color: #fff;
+}
+.follow{
+    margin-top: 30px;
+}
+
+.follow-img img{
+    padding: 10px 5px;
+}
+
+.logo-img img{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.contact{
+    margin-top: 40px;
+}
+
+.contact-text{
+    margin-top: 20px;
+}
+
+.contact-text p a{
+    display: block;
+    text-decoration: none;
+
+}
+
+.link{
+    margin-top: 30px;
+    margin-left: 23rem;
+}
+
+.link-text{
+    text-align: start;
+    margin-top: 15px;
+
+
+}
+
+.link-text a{
+    display: block;
+    text-decoration: none;
+}
+
+
+  /* .footers .con h2{
+     margin-top: 50px; 
+  } */
+
+  @media screen and (max-width:600px){
+    
+  }
+
+  @media screen and (min-width: 480px){
+
+  }
+
+ 
